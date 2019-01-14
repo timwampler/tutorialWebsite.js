@@ -1,0 +1,59 @@
+
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+    overflow: hidden;
+
+  }
+
+  li {
+        float: right;
+  }
+
+  li a {
+        display: block;  
+        padding: 20px 16px;
+        text-decoration: none;
+        background-color: grey;
+        color: white;
+        
+
+  }
+
+  li a:hover {
+      background-color: teal;
+
+  }
+
+    
+  h1 {
+      text-align: center
+  }
+/* 
+    div {
+        width: 300px;
+        border: 25px solid green;
+        padding: 25px;
+        margin: 25px;
+      } */
+
+      div  {
+        display: inline-block;
+        width: 20%;
+        border: 25px solid green;
+        padding: 25px;
+        margin: 25px;
+        float: left;
+        text-align: center;
+      }
+
+  
+
+    
+
